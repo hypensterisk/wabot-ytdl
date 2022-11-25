@@ -1,0 +1,25 @@
+{
+  "name": "wabot-ytdl",
+  "version": "1.0.0",
+  "description": "Whatsapp Bot For Downloading Music From Youtube",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypensterisk/wabot-ytdl.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "youtube",
+    "bot"
+  ],
+  "author": "hypensterisk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypensterisk/wabot-ytdl/issues"
+  },
+  "homepage": "https://github.com/hypensterisk/wabot-ytdl#readme"
+}
