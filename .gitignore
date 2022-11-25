@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# LocalAuth
+.wwebjs_auth
