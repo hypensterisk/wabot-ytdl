@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/hypensterisk/wabot-ytdl/issues"
   },
-  "homepage": "https://github.com/hypensterisk/wabot-ytdl#readme"
+  "homepage": "https://github.com/hypensterisk/wabot-ytdl#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.3",
+    "youtube-dl-exec": "^2.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/qrcode-terminal": "^0.12.0"
+  }
 }
