@@ -1,6 +1,7 @@
 /** @format */
 
 import {randomUUID} from 'crypto'
+import ffmpegPath from 'ffmpeg-static'
 import {rm} from 'fs/promises'
 import {tmpdir} from 'os'
 import {join} from 'path'
@@ -14,6 +15,7 @@ import youtube from 'youtube-dl-exec'
 async function handleMessage(message) {
   const file = join(tmpdir(), `${randomUUID()}.mp3`)
   await youtube(message.body, {
+    ffmpegLocation: ffmpegPath,
     extractAudio: true,
     audioFormat: 'mp3',
     audioQuality: 0,
