@@ -35,6 +35,7 @@ async function startBot() {
     try {
       await handleMessage(message)
     } catch (error) {
+      console.error(error)
       await message.reply('An Error Has Occurred!')
     }
   })
